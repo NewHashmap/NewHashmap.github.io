@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
+title: NewHashmap blog
+subtitle: 
 description: ''
 keywords:
-author: John Doe
+author: NewHashmap
 language: en
 timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: https://newhashmap.github.io/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -101,3 +101,22 @@ deploy:
   type: git
   repo: git@github.com:NewHashmap/NewHashmap.github.io.git
   branch: master
+  
+jsonContent:
+  meta: false
+  pages: false
+  posts:
+    title: true
+    date: true
+    path: true
+    text: false
+    raw: false
+    content: false
+    slug: false
+    updated: false
+    comments: false
+    link: false
+    permalink: false
+    excerpt: false
+    categories: false
+    tags: true
